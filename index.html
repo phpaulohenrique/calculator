@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/root.css">
+    <link rel="stylesheet" href="/styles/general.css">
+
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+
+
+    <title>Calculator</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Calculator</h1>
+    
+
+    </header>
+
+    <main >
+
+        <div class="calculator">
+
+            <section class="calculator__output">
+    
+                <div class="calculator__output__previus-operand" id="calculator__output__previus-operand"></div>
+                
+                <div class="calculator__output__current-operand" id="calculator__output__current-operand"></div>
+
+
+            </section>
+
+            <section class="container__buttons">
+
+                <button data-all-clear class="span-two" onclick="clearCalculator()">AC</button>
+                <button data-delete onclick="deleteLastDigit()">DEL</button>
+                <button data-operation onclick="insert('/')">/</button>
+
+                <button data-number onclick="insert('1')">1</button>
+                <button data-number onclick="insert('2')">2</button>
+                <button data-number onclick="insert('3')">3</button>
+
+                <button data-operation onclick="insert('*')" >*</button>
+
+                <button data-number onclick="insert('4')">4</button>
+                <button data-number onclick="insert('5')">5</button>
+                <button data-number onclick="insert('6')">6</button>
+
+                <button data-operation onclick="insert('+')">+</button>
+
+                <button data-number onclick="insert('7')">7</button>
+                <button data-number onclick="insert('8')">8</button>
+                <button data-number onclick="insert('9')">9</button>
+                <button data-operation onclick="insert('-')">-</button>
+
+                <button data-number onclick="insert('.')">.</button>
+                <button data-number onclick="insert('0')">0</button>
+
+                <button data-equals class="span-two" onclick="calculate()">=</button>
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="/scripts/app.js" ></script>
+    
+</body>
+</html>

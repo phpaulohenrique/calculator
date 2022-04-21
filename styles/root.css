@@ -1,0 +1,23 @@
+
+html{
+    
+    font-size: 62.5%;
+
+    --white-800: rgb(255, 255, 255);
+    
+    --black-1000:  rgb(0, 0, 0);
+    box-sizing: border-box;
+    --black-600: rgb(53, 53, 53);
+
+}
+
+body{
+    
+    font-family: 'Gotham Rounded', Tahoma, Helvetica, Verdana;
+    box-sizing: border-box;
+    position: relative;
+    letter-spacing: 1.5px;
+
+}
+
+

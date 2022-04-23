@@ -44,36 +44,18 @@ function calculate(){
 
     const valueAlreadyComputed = document.getElementById("calculator__output__current-operand").innerHTML;
 
-
     document.getElementById("calculator__output__previus-operand").innerHTML = valueAlreadyComputed;
 
-    document.getElementById("calculator__output__current-operand").innerHTML = eval(valueAlreadyComputed);
+    if(valueAlreadyComputed === "" || null || undefined) {
 
-    if(valueAlreadyComputed.typeOf ){
-
-        alert('asd')
-        
-        if (valueAlreadyComputed === undefined){
-                    // document.getElementById("calculator__output__current-operand").innerHTML = 'asda'
-
-
-        };
-
-        // document.getElementById("calculator__output__current-operand").innerHTML = eval(valueAlreadyComputed);
-        
-    }
-    else
-    {
-        // alert('xd')
-        // document.getElementById("calculator__output__current-operand").innerHTML = "Nada...";
-
-
-
-
+        document.getElementById("calculator__output__current-operand").innerHTML = "";
 
     }
+    else{
 
-    // console.log(valueAlreadyComputed);
+        document.getElementById("calculator__output__current-operand").innerHTML = eval(valueAlreadyComputed);
+    }
+
 
 }
 

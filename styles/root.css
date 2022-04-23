@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 html{
     
@@ -13,10 +14,11 @@ html{
 
 body{
     
-    font-family: 'Gotham Rounded', Tahoma, Helvetica, Verdana;
+    font-family: 'Roboto', Tahoma, Helvetica, Verdana;
     box-sizing: border-box;
     position: relative;
     letter-spacing: 1.5px;
+    font-weight: normal;
 
 }
 

@@ -30,8 +30,9 @@ main{
 
 
     background-color: rgb(43, 43, 43);
-    height: 25vw;
-    padding: 1rem 1.5rem;
+    height: 120px;
+    padding: 0 .9rem;
+    /* padding: 0; */
     
     padding-bottom: 0;
 
@@ -42,19 +43,26 @@ main{
     
     box-sizing: border-box;
 
+    word-wrap: break-word;
+    word-break: break-all;
+
 }
 
 
 .calculator__output__previus-operand{
 
-    font-size: 2.2rem;
+    font-size: 1.7rem;
+    margin: 0;
+    
 }
 
 
 .calculator__output__current-operand{
 
-    font-size: 3.8rem;
-    overflow: hidden;
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
 
 }
 

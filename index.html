@@ -25,7 +25,6 @@
 
         <h1>Calculator</h1>
     
-
     </header>
 
     <main >
@@ -43,29 +42,29 @@
 
             <section class="container__buttons">
 
-                <button data-all-clear class="span-two" onclick="clearCalculator()">AC</button>
-                <button data-delete onclick="deleteLastDigit()">DEL</button>
-                <button data-operation onclick="insert('/')">/</button>
+                <button  class="span-two" onclick="clearCalculator()">AC</button>
+                <button  onclick="deleteLastDigit()">DEL</button>
+                <button  onclick="insert('/', 'isOperator: true')">/</button>
 
-                <button data-number onclick="insert('1')">1</button>
-                <button data-number onclick="insert('2')">2</button>
-                <button data-number onclick="insert('3')">3</button>
+                <button onclick="insert('1')">1</button>
+                <button onclick="insert('2')">2</button>
+                <button onclick="insert('3')">3</button>
 
-                <button data-operation onclick="insert('*')" >*</button>
+                <button onclick="insert('*', 'isOperator: true')" >*</button>
 
-                <button data-number onclick="insert('4')">4</button>
-                <button data-number onclick="insert('5')">5</button>
-                <button data-number onclick="insert('6')">6</button>
+                <button onclick="insert('4')">4</button>
+                <button onclick="insert('5')">5</button>
+                <button onclick="insert('6')">6</button>
 
-                <button data-operation onclick="insert('+')">+</button>
+                <button onclick="insert('+', 'isOperator: true')">+</button>
 
-                <button data-number onclick="insert('7')">7</button>
-                <button data-number onclick="insert('8')">8</button>
-                <button data-number onclick="insert('9')">9</button>
-                <button data-operation onclick="insert('-')">-</button>
+                <button onclick="insert('7')">7</button>
+                <button onclick="insert('8')">8</button>
+                <button onclick="insert('9')">9</button>
+                <button onclick="insert('-', 'isOperator: true')">-</button>
 
-                <button data-number onclick="insert('.')">.</button>
-                <button data-number onclick="insert('0')">0</button>
+                <button onclick="insert('.')">.</button>
+                <button onclick="insert('0')">0</button>
 
                 <button data-equals class="span-two" onclick="calculate()">=</button>
 

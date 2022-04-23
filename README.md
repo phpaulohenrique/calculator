@@ -9,5 +9,5 @@ Project made in VanillaJS.
 <hr>
 hosted on netlify.
 
-link: https://calculator-ph.netlify.app
+link site: https://calculator-ph.netlify.app
 

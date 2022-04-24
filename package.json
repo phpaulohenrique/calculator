@@ -1,0 +1,10 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "calculator in VanillaJS",
+  "main": "index.html",
+  "repository": "https://github.com/phpaulohenrique/calculator.git",
+  "author": "Paulo Henrique <paulo.henrique1080p@gmail.com>",
+  "license": "MIT",
+  "private": false
+}

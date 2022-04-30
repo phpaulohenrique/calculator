@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/root.css">
-    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/root.css">
 
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 
 
     <title>Calculator</title>
@@ -23,7 +22,17 @@
 
     <header>
 
-        <h1>Calculator</h1>
+        <div class="header__container-switch">
+
+            <label class="switch-theme">
+
+                <input type="checkbox" id="checkbox-switch-theme" >
+                <span class="slider round"></span>
+
+            </label>
+        </div>
+
+        <h1 class="header__h1">Calculator</h1>
     
     </header>
 
@@ -66,7 +75,7 @@
                 <button onclick="insert('.')">.</button>
                 <button onclick="insert('0')">0</button>
 
-                <button data-equals class="span-two" onclick="calculate()">=</button>
+                <button class="span-two" onclick="calculate()">=</button>
 
             </section>
 
@@ -83,6 +92,8 @@
     </footer>
 
     <script src="/scripts/app.js" ></script>
+    <script src="/scripts/theme-calculator.js"></script>
+
     
 </body>
 </html>

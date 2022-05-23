@@ -2,9 +2,9 @@
 
 <h2>About</h2>
 
-* Responsive📲🖥✅
-* Theme dark and light
-* Mobile First
+* ✔Responsive 📲🖥
+* ✔Light and dark theme ⚪⚫
+* ✔Mobile first 📱
 
 <h3> Project technologies ⬇</h3>
 
